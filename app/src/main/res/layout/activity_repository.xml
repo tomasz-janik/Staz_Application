@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        android:id="@+id/activity_main_layout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Activities.RepositoryActivity">
+
+    <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="2dp"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+            android:layout_marginRight="8dp" android:layout_marginEnd="8dp">
+
+
+        <RelativeLayout
+                android:id="@+id/row_repository_main_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp">
+
+            <TextView
+                    android:id="@+id/repository_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:textSize="18sp"
+            />
+
+            <TextView
+                    android:id="@+id/repository_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/repository_name"
+                    android:textSize="12sp"
+            />
+
+            <TextView
+                    android:id="@+id/repository_owner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/repository_description"
+                    android:layout_marginTop="4dp"
+                    android:textSize="12sp"
+            />
+
+            <TextView
+                    android:id="@+id/repository_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/repository_owner"
+                    android:textSize="12sp"
+            />
+
+            <TextView
+                    android:id="@+id/repository_language"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/repository_size"
+                    android:layout_marginTop="4dp"
+                    android:textSize="12sp"
+            />
+
+            <TextView
+                    android:id="@+id/repository_updated"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/repository_size"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="4dp"
+                    android:textSize="12sp"
+            />
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

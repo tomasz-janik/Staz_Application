@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Test Application</string>
+    <string name="enter_username">Type Github nickname:</string>
+    <string name="search">Search</string>
+
+    <string name="url">https://api.github.com/</string>
+    <string name="no_internet">You don\'t have internet connection</string>
+    <string name="no_username">This user doesn\'t exist</string>
+    <string name="error">Something went wrong</string>
+</resources>
